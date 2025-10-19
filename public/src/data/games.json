@@ -1,0 +1,388 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "bggId": 68448,
+      "ean": "5425016923870",
+      "name": "7 Wonders",
+      "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__imagepage/img/Tw15F9cm5P1bxVU-wPIvdCW-r3E=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7149798.jpg",
+      "year": 2010,
+      "players": {
+        "min": 2,
+        "max": 7,
+        "recommended": 4
+      },
+      "duration": {
+        "min": 30,
+        "max": 30,
+        "average": 30
+      },
+      "age": 10,
+      "complexity": 2.33,
+      "rating": 7.7,
+      "categories": ["Stratégie", "Antiquité", "Civilisation"],
+      "mechanics": ["Draft de cartes", "Collection", "Développement"],
+      "description": "Prenez la tête d'une grande cité du monde antique. Exploitez les ressources naturelles de vos terres, participez à la marche en avant du progrès, développez vos relations commerciales et affirmez votre suprématie militaire."
+    },
+    {
+      "id": 2,
+      "bggId": 230802,
+      "ean": "681706711003",
+      "name": "Azul",
+      "image": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__imagepage/img/q4uWd2nXGeEkKDR8Cc2At17N6gU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6973671.png",
+      "year": 2017,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 30,
+        "max": 45,
+        "average": 40
+      },
+      "age": 8,
+      "complexity": 1.78,
+      "rating": 7.8,
+      "categories": ["Abstrait", "Puzzle"],
+      "mechanics": ["Draft", "Pattern Building", "Placement de tuiles"],
+      "description": "Azul vous transporte à l'époque où le roi Manuel Ier demanda que l'intérieur de son palais soit décoré avec de magnifiques azulejos (carreaux de faïence)."
+    },
+    {
+      "id": 3,
+      "bggId": 13,
+      "ean": "029877030828",
+      "name": "Les Colons de Catane",
+      "image": "https://cf.geekdo-images.com/W3Bsga_uLP9kO91gZ7H8yw__imagepage/img/M_3Vg1j2HlNgkv7PL2xl2BJE2bw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2419375.jpg",
+      "year": 1995,
+      "players": {
+        "min": 3,
+        "max": 4,
+        "recommended": 4
+      },
+      "duration": {
+        "min": 60,
+        "max": 120,
+        "average": 90
+      },
+      "age": 10,
+      "complexity": 2.32,
+      "rating": 7.1,
+      "categories": ["Stratégie", "Négociation", "Civilisation"],
+      "mechanics": ["Gestion de ressources", "Dés", "Échange", "Construction"],
+      "description": "Collectez et échangez des ressources pour construire routes, colonies et villes. Devenez le maître de Catane !"
+    },
+    {
+      "id": 4,
+      "bggId": 148228,
+      "ean": "3558380045748",
+      "name": "Splendor",
+      "image": "https://cf.geekdo-images.com/rwOMxx4q5yuElIvo-1-OFw__imagepage/img/JQDK5FC2IpJJfHN0TkrUkLtU7-0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1904079.jpg",
+      "year": 2014,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 30,
+        "max": 30,
+        "average": 30
+      },
+      "age": 10,
+      "complexity": 1.79,
+      "rating": 7.4,
+      "categories": ["Stratégie", "Renaissance"],
+      "mechanics": ["Gestion de main", "Moteur", "Collection"],
+      "description": "Incarnez un riche marchand de la Renaissance. Acquérez mines, moyens de transport et boutiques pour transformer les pierres brutes en magnifiques joyaux."
+    },
+    {
+      "id": 5,
+      "bggId": 266192,
+      "ean": "644216627721",
+      "name": "Wingspan",
+      "image": "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__imagepage/img/uIjeoKgHMcRtzRSR4MoUYl3nXxs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4458123.jpg",
+      "year": 2019,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 40,
+        "max": 70,
+        "average": 60
+      },
+      "age": 10,
+      "complexity": 2.43,
+      "rating": 8.0,
+      "categories": ["Stratégie", "Animaux", "Nature"],
+      "mechanics": ["Moteur", "Gestion de cartes", "Placement"],
+      "description": "Vous êtes des passionnés d'oiseaux : chercheurs, observateurs, ornithologues ou collectionneurs. Vous tentez de découvrir et d'attirer les plus beaux oiseaux dans votre volière."
+    },
+    {
+      "id": 6,
+      "bggId": 284083,
+      "ean": "3558380086116",
+      "name": "Kingdomino",
+      "image": "https://cf.geekdo-images.com/3h9W8BfB_rltYUqDs2mjLw__imagepage/img/tzQI8JL_puqXTthZ9Fpo1JC0vVw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3132685.png",
+      "year": 2016,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 15,
+        "max": 15,
+        "average": 15
+      },
+      "age": 8,
+      "complexity": 1.21,
+      "rating": 7.4,
+      "categories": ["Familial", "Placement", "Territoire"],
+      "mechanics": ["Draft", "Placement de tuiles", "Pattern Building"],
+      "description": "Vous incarnez un seigneur en quête de terres pour étendre son royaume. Il vous faut explorer et conquérir les différents types de terrains pour développer votre domaine."
+    },
+    {
+      "id": 7,
+      "bggId": 167791,
+      "ean": "681706711201",
+      "name": "Terraforming Mars",
+      "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__imagepage/img/FS1RE8Ue6nk1pNbPI3l-OSapQGc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3536616.jpg",
+      "year": 2016,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 120,
+        "max": 120,
+        "average": 120
+      },
+      "age": 12,
+      "complexity": 3.25,
+      "rating": 8.4,
+      "categories": ["Stratégie", "Science-Fiction", "Expert"],
+      "mechanics": ["Gestion de main", "Draft", "Moteur", "Tuiles"],
+      "description": "Dans Terraforming Mars, de puissantes corporations travaillent pour rendre Mars habitable. Augmentez la température, créez des océans et développez une atmosphère respirable."
+    },
+    {
+      "id": 8,
+      "bggId": 182028,
+      "ean": "824968717912",
+      "name": "Through the Ages",
+      "image": "https://cf.geekdo-images.com/fVwPntkJKgaEo0rIC0RwpA__imagepage/img/TF5TpNBaWY-7UOPnkFqCommKe1g=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2663291.jpg",
+      "year": 2015,
+      "players": {
+        "min": 2,
+        "max": 4,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 120,
+        "max": 240,
+        "average": 180
+      },
+      "age": 14,
+      "complexity": 4.39,
+      "rating": 8.4,
+      "categories": ["Stratégie", "Civilisation", "Expert"],
+      "mechanics": ["Gestion de main", "Développement", "Ressources"],
+      "description": "Guidez votre civilisation à travers les âges, de l'Antiquité à l'ère moderne. Développez votre science, votre culture et votre puissance militaire."
+    },
+    {
+      "id": 9,
+      "bggId": 822,
+      "ean": "3558380084334",
+      "name": "Carcassonne",
+      "image": "https://cf.geekdo-images.com/Z3upN53-fsVPUDimN9SpOA__imagepage/img/sT0kjr-Klona2rygvD8kURJgqdU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2337577.jpg",
+      "year": 2000,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 30,
+        "max": 45,
+        "average": 35
+      },
+      "age": 7,
+      "complexity": 1.91,
+      "rating": 7.4,
+      "categories": ["Familial", "Médiéval", "Territoire"],
+      "mechanics": ["Placement de tuiles", "Contrôle de zone"],
+      "description": "Développez le paysage autour de la cité médiévale fortifiée de Carcassonne. Placez vos meeples sur les routes, dans les villes, les champs et les abbayes."
+    },
+    {
+      "id": 10,
+      "bggId": 9209,
+      "ean": "4005556269228",
+      "name": "Ticket to Ride",
+      "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__imagepage/img/pMtyUIDEvmg-7gP1YrSHBt89eG0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic66668.jpg",
+      "year": 2004,
+      "players": {
+        "min": 2,
+        "max": 5,
+        "recommended": 4
+      },
+      "duration": {
+        "min": 30,
+        "max": 60,
+        "average": 45
+      },
+      "age": 8,
+      "complexity": 1.89,
+      "rating": 7.4,
+      "categories": ["Familial", "Trains"],
+      "mechanics": ["Collection", "Gestion de main", "Routes"],
+      "description": "Reliez les grandes villes d'Amérique du Nord en collectionnant des cartes wagons et en construisant vos lignes de train."
+    },
+    {
+      "id": 11,
+      "bggId": 173346,
+      "ean": "3558380045755",
+      "name": "7 Wonders Duel",
+      "image": "https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__imagepage/img/HWASaNRjciPHcdGU3DF3QBkmW8I=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2576399.jpg",
+      "year": 2015,
+      "players": {
+        "min": 2,
+        "max": 2,
+        "recommended": 2
+      },
+      "duration": {
+        "min": 30,
+        "max": 30,
+        "average": 30
+      },
+      "age": 10,
+      "complexity": 2.23,
+      "rating": 8.1,
+      "categories": ["Stratégie", "Antiquité", "Deux joueurs"],
+      "mechanics": ["Draft de cartes", "Collection"],
+      "description": "Prenez la tête d'une civilisation et affrontez votre adversaire dans cette version pour 2 joueurs de 7 Wonders. Trois voies vers la victoire : militaire, scientifique ou civil."
+    },
+    {
+      "id": 12,
+      "bggId": 244992,
+      "ean": "3558380074670",
+      "name": "Patchwork",
+      "image": "https://cf.geekdo-images.com/wLW7pFn0--20lEizEz5p3A__imagepage/img/StonJfcDIHsUMS3KN3OFuXcFZYk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2270442.jpg",
+      "year": 2014,
+      "players": {
+        "min": 2,
+        "max": 2,
+        "recommended": 2
+      },
+      "duration": {
+        "min": 15,
+        "max": 30,
+        "average": 20
+      },
+      "age": 8,
+      "complexity": 1.65,
+      "rating": 7.6,
+      "categories": ["Abstrait", "Deux joueurs", "Puzzle"],
+      "mechanics": ["Placement de tuiles", "Gestion du temps"],
+      "description": "Créez le patchwork le plus esthétique et le plus complet. Choisissez vos pièces de tissu avec soin, en gérant au mieux votre temps et vos boutons."
+    },
+    {
+      "id": 13,
+      "bggId": 256916,
+      "ean": "3558380078388",
+      "name": "Codenames Duo",
+      "image": "https://cf.geekdo-images.com/lr4SfQ4HkIjgbPp5u0A1QQ__imagepage/img/JGmxiK1TCKPDgmGWYP1pFBZ4JlE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3477870.png",
+      "year": 2017,
+      "players": {
+        "min": 2,
+        "max": 2,
+        "recommended": 2
+      },
+      "duration": {
+        "min": 15,
+        "max": 15,
+        "average": 15
+      },
+      "age": 11,
+      "complexity": 1.27,
+      "rating": 7.2,
+      "categories": ["Deux joueurs", "Mots", "Coopératif"],
+      "mechanics": ["Association", "Déduction"],
+      "description": "Version coopérative pour 2 joueurs du célèbre Codenames. Travaillez ensemble pour identifier tous vos agents avant que le temps ne s'écoule."
+    },
+    {
+      "id": 14,
+      "bggId": 266524,
+      "ean": "853533008575",
+      "name": "PARKS",
+      "image": "https://cf.geekdo-images.com/mF2cSNRk2O6HtE45Sl9TcA__imagepage/img/qRL1MsS6e4Xiv-yhLlmHiHKR6lY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4852372.jpg",
+      "year": 2019,
+      "players": {
+        "min": 1,
+        "max": 5,
+        "recommended": 3
+      },
+      "duration": {
+        "min": 40,
+        "max": 70,
+        "average": 60
+      },
+      "age": 10,
+      "complexity": 2.16,
+      "rating": 7.7,
+      "categories": ["Familial", "Nature", "Collection"],
+      "mechanics": ["Placement d'ouvriers", "Collection"],
+      "description": "Parcourez les sentiers des parcs nationaux américains. Admirez les paysages, collectez des souvenirs et photographez la faune sauvage."
+    },
+    {
+      "id": 15,
+      "bggId": 162886,
+      "ean": "824968200728",
+      "name": "Spirit Island",
+      "image": "https://cf.geekdo-images.com/0QfiVAK3RQ8QrfFd0UuT8Q__imagepage/img/Xg8gCMsqdEhfPDHQPv0gvtJwYxU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3615739.png",
+      "year": 2017,
+      "players": {
+        "min": 1,
+        "max": 4,
+        "recommended": 2
+      },
+      "duration": {
+        "min": 90,
+        "max": 120,
+        "average": 120
+      },
+      "age": 13,
+      "complexity": 3.98,
+      "rating": 8.3,
+      "categories": ["Stratégie", "Coopératif", "Expert"],
+      "mechanics": ["Gestion de main", "Pouvoirs variables", "Coopération"],
+      "description": "Incarnez des esprits de la nature défendant leur île contre les envahisseurs colonisateurs. Travaillez ensemble pour repousser les intrus avant qu'ils ne détruisent l'île."
+    },
+    {
+      "id": 16,
+      "bggId": 178900,
+      "ean": "3558380045731",
+      "name": "Codenames",
+      "image": "https://cf.geekdo-images.com/F_KDEu0GjdClml8N7c8Imw__imagepage/img/rc_Do8f5v41nWEGcZZqo1or8kWc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2582929.jpg",
+      "year": 2015,
+      "players": {
+        "min": 2,
+        "max": 8,
+        "recommended": 6
+      },
+      "duration": {
+        "min": 15,
+        "max": 15,
+        "average": 15
+      },
+      "age": 14,
+      "complexity": 1.31,
+      "rating": 7.6,
+      "categories": ["Familial", "Mots", "Party Game"],
+      "mechanics": ["Association", "Équipes"],
+      "description": "Deux équipes s'affrontent. Les maîtres-espions donnent des indices d'un seul mot pour aider leurs coéquipiers à identifier leurs agents parmi 25 noms de code."
+    }
+  ]
+}
