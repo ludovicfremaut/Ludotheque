@@ -1,0 +1,24 @@
+services:
+  ludotheque-vanilla:
+    image: ghcr.io/static-web-server/static-web-server:2
+    container_name: ludotheque-vanilla
+    restart: unless-stopped
+    networks: [proxy]
+    volumes:
+      - ./public:/public:ro
+    command:
+      - --root=/public
+      - --port=8080
+      - --page-fallback=/index.html
+      - --health
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.ludotheque-vanilla.rule=Host(`ludotheque.duckdns.org`)
+      - traefik.http.routers.ludotheque-vanilla.entrypoints=websecure
+      - traefik.http.routers.ludotheque-vanilla.tls=true
+      - traefik.http.routers.ludotheque-vanilla.tls.certresolver=letsencrypt
+      - traefik.http.services.ludotheque-vanilla.loadbalancer.server.port=8080
+
+networks:
+  proxy:
+    external: true

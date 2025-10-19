@@ -1,0 +1,13 @@
+services:
+  web:
+    image: node:alpine
+    container_name: vanilla-local
+    working_dir: /app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./public:/app
+    command: >
+      sh -c "npm install -g browser-sync &&
+             browser-sync start --server --files '**/*' --port 8080 --no-ui --no-notify --open false"
+
