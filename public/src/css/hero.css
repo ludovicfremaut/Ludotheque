@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95)),
+  /* Overlay assombri — opacités réduites pour éclaircir l'image de fond */
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.6), rgba(30, 41, 59, 0.45)),
               url('https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=1600') center/cover;
   color: var(--color-text);
   padding: var(--spacing-xl) 0;
@@ -40,7 +41,7 @@
   gap: var(--spacing-sm);
   max-width: 600px;
   margin: 0 auto;
-  border-radius: var(--border-radius);
+  border-radius: (--border-radius);
 }
 
 .hero-search-input {

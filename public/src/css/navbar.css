@@ -29,6 +29,10 @@
   font-size: 1.5rem;
 }
 
+.logo-text {
+  display: inline-block;
+}
+
 .nav-links {
   display: flex;
   gap: var(--spacing-md);
@@ -42,10 +46,13 @@
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
 }
 
 .nav-links a:hover {
   color: var(--color-text);
+  background-color: transparent;
 }
 
 .btn-random {
@@ -79,6 +86,7 @@
   outline: none;
   border-color: var(--color-primary);
   width: 250px;
+  box-shadow: 0 0 0 4px rgba(16,185,129,0.06);
 }
 
 .search-icon {
@@ -121,17 +129,83 @@
   object-fit: cover;
 }
 
-/* Responsive */
+/* ===== Mobile responsive behaviour ===== */
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
+  .navbar-content {
+    flex-wrap: wrap;
   }
-  
+
+  /* Logo scaled */
+  .logo {
+    font-size: 1rem;
+  }
+
+  .logo-text {
+    font-size: 0.9rem;
+  }
+
+  /* Nav links: displayed under navbar as a horizontal bar */
+  .nav-links {
+    flex-basis: 100%;
+    order: 3;
+    justify-content: space-around;
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--border-color);
+    gap: var(--spacing-xs);
+    background: transparent;
+  }
+
+  /* Mobile link style: primary color and bigger tap target */
+  .nav-links a {
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Hover / tap / focus feedback for mobile */
+  .nav-links a:hover,
+  .nav-links a:active,
+  .nav-links a:focus {
+    color: var(--color-primary-dark);
+    background-color: rgba(16, 185, 129, 0.08);
+    box-shadow: 0 0 0 2px rgba(16,185,129,0.12);
+    transform: translateY(-1px);
+  }
+
+  /* Search reduced on mobile */
   .search-input {
+    width: 120px;
+    font-size: 0.8rem;
+    padding: 0.4rem 2rem 0.4rem 0.75rem;
+  }
+
+  .search-input:focus {
     width: 150px;
   }
-  
-  .search-input:focus {
-    width: 180px;
+
+  .search-icon {
+    right: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Notifications and avatar smaller */
+  .notifications-btn {
+    font-size: 1.1rem;
+    padding: 0.4rem;
+  }
+
+  .profile-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .navbar-right {
+    gap: 0.5rem;
   }
 }
