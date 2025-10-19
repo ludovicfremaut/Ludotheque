@@ -1,15 +1,44 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ludothèque - Game Night Central</title>
-    <meta name="description" content="Trouvez le jeu parfait pour votre soirée jeux">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <script type="module" src="src/js/main.js" defer></script>
-  </head>
-  <body>
-    <h1>Game Night Central</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ludothèque - Ma Collection de Jeux</title>
+  <meta name="description" content="Trouvez le jeu parfait pour votre soirée jeux">
+  <link rel="stylesheet" href="src/css/main.css">
+  <script type="module" src="src/js/main.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container navbar-content">
+      <a href="/" class="logo">
+        <span class="logo-icon">🎲</span>
+        <span class="logo-text">Ma Ludothèque</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="/jeux">Mes Jeux</a></li>
+        <li><a href="/explorer">Explorer</a></li>
+        <li><a href="/aleatoire">Jeu Aléatoire</a></li>
+      </ul>
+
+      <div class="navbar-right">
+        <div class="search-box">
+          <input type="search" placeholder="Rechercher des jeux..." aria-label="Rechercher des jeux" />
+          <span class="search-icon">🔍</span>
+
+          <button class="notifications-btn" aria-label="Notifications">
+            <span>🔔</span>
+          </button>
+
+          <div class="profile-avatar" aria-label="Profil Utilisateur">
+            <img src="https://via.placeholder.com/40" alt="Avatar Utilisateur" />
+          </div>
+        </div>
+      </div>
+  </nav>
+</body>
+
 </html>
